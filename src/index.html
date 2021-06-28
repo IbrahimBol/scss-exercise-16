@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SCSS-EXERCİSE-16</title>
+    <link rel="stylesheet" href="css/app.min.css" />
+  </head>
+  <body>
+    <div class="component--recipe-1">
+      <ul>
+        <li>
+          <img src="img/icon-clock.svg" alt="" />
+          30 min
+        </li>
+        <li>
+          <img src="img/icon-pay.svg" alt="" />
+          6 servings
+        </li>
+        <li>
+          <img src="img/icon-bar.svg" alt="" />
+          210 cals
+        </li>
+      </ul>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="component--recipe-2">
+      <h6>Difficulty</h6>
+      <ul>
+        <li>Easy</li>
+        <li class="active">Medium</li>
+        <li>Hard</li>
+      </ul>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="component--recipe-3">
+      <h5>Search for recipes</h5>
+      <form action="">
+        <div class="icon">
+          <img src="img/search-icon.svg" alt="" />
+        </div>
+
+        <input type="text" placeholder="Your email address" />
+      </form>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="component--recipe-4">
+      <div class="cover"></div>
+      <div class="inner">
+        <div class="top-title">Subscribe today</div>
+        <h6>Never miss a recipe</h6>
+        <form action="">
+          <input type="text" placeholder="Your email address" />
+          <button type="submit">Subscribe</button>
+        </form>
+        <p>
+          We won’t send you spam. <br />
+          Unsubscribe at any time.
+        </p>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="component--recipe-5">
+      <a href="#" class="favorite-btn">
+        <svg
+          width="24"
+          height="20"
+          viewBox="0 0 24 20"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 18.9999L3.25003 10.2499C1.17896 8.00625 1.31887 4.50848 3.56253 2.43741C5.80619 0.366341 9.30396 0.506251 11.375 2.74991C11.7534 3.00269 12.2467 3.00269 12.625 2.74991C14.6961 0.506252 18.1939 0.366341 20.4375 2.43741C22.6812 4.50848 22.8211 8.00625 20.75 10.2499L12 18.9999"
+            stroke-width="1.875"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </a>
+      <a href="#" class="image">
+        <img
+          src="img/flat-lay-photography-of-vegetable-salad-on-plate-1640777.png"
+          alt=""
+      /></a>
+      <div class="inner">
+        <a href="" class="title"> Spinach Salad</a>
+        <div class="description">
+          Simple recipe for a weeknight or a celebration table. I promise it is
+          one of the easiest salads you will ever make!
+        </div>
+        <div class="rating">
+          <div>
+            <img src="img/Star.svg" alt="" />
+            <img src="img/Star.svg" alt="" />
+            <img src="img/Star.svg" alt="" />
+            <img src="img/Star.svg" alt="" />
+            <img src="img/Star.svg" alt="" />
+          </div>
+          <div class="text">14K</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="component--recipe-6">
+      <a href="javascript:;" class="prev-btn">
+        <img src="img/icon-prev.svg" alt=""> </a>
+      <a href="javascript:;" class="next-btn">
+        <img src="img/icon-next.svg" alt="">
+      </a>
+      <div class="swiper-container mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="img/crispy.png" alt="" />
+              <span class="title"> Crispy Crouton Salad </span>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="img/sample-3.png" alt="" />
+              <span class="title"> Pancakes with yogurt </span>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="img/crispy2.png" alt="" />
+              <span class="title"> Crispy and Creamy Doughnuts </span>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="img/pizza.png" alt="" />
+              <span class="title"> Perfect Neapolitan Pizza</span>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="img/pancakes.png" alt="" />
+              <span class="title"> Pancakes with yogurt </span>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="img/sample-3.png" alt="" />
+              <span class="title"> Pancakes with yogurt </span>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="img/sample-3.png" alt="" />
+              <span class="title"> Pancakes with yogurt </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css"
+    />
+    <script src="js/app.min.js"></script>
+  </body>
+</html>
